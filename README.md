@@ -16,16 +16,16 @@ It dynamically fetches albums and songs, displays them in a sidebar, and feature
 
 ## 📂 Project Structure
 
-spotify-2.0/
-│── assets/
-│ ├── icons/ # UI icons
-│ └── songs/ # MP3/Audio files
-│── index.html # main HTML file
-│── script.js # main logic
-│── style.css # styling
-│── utility.css # utility classes
-│── favicon.ico # site favicon
-│── README.md # project documentation
+spotify-2.0/<br>
+│── assets/<br>
+│ ├── icons/ # UI icons<br>
+│ └── songs/ # MP3/Audio files<br>
+│── index.html # main HTML file<br>
+│── script.js # main logic<br>
+│── style.css # styling<br>
+│── utility.css # utility classes<br>
+│── favicon.ico # site favicon<br>
+│── README.md # project documentation<br>
 
 
 
