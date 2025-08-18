@@ -37,8 +37,8 @@ spotify-2.0/
 ## 📸 Screenshots
 <h3>Mobile View</h3>
 <p align="center">
-  <img src="assets/screenshots/screenshot2.png" alt="" width="45%" />
-  <img src="assets/screenshots/screenshot3.png" alt="" width="45%" />
+  <img src="assets/screenshots/screenshot2.png" alt="" width="35%" height="60%"/>
+  <img src="assets/screenshots/screenshot3.png" alt="" width="35%" height="60%"/>
 </p>
 
 ---
@@ -64,8 +64,8 @@ spotify-2.0/
 4. Enjoy the music 🎧
 
 🛠️ Tech Stack:
-=> HTML5
-=> CSS3
+=> HTML5<br>
+=> CSS3<br>
 => JavaScript (ES6+)
 
 👨‍💻 Author
