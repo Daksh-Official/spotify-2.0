@@ -71,5 +71,5 @@ spotify-2.0/<br>
 👨‍💻 Author
 Made with ❤️ by Daksh
 
-note: I made this project for practice so there may or may not be any future changes but it however you like just star and fork the repo if possible also this project is not for commercial use.
+note: I made this project for practice so there may or may not be any future changes but use it however you like just star and fork the repo if possible also this project is not for commercial use.
  
