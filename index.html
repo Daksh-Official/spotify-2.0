@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="nleft">
+                <div class="icon_container">
+                    <img src="./assets/icons/logo.svg" class="logo margin_left focus">
+                </div>
+                <div class="icon_container home_icon">
+                    <img src="./assets/icons/home.svg" class="icon focus" alt="">
+                </div>
+                <div class="search">
+                    <div class="sright center">
+                        <img src="./assets/icons/search.svg" alt="" class="focus"
+                            style="width: 24px;height: 24px;padding-right: 8px;">
+                        <input type="search" placeholder="What do you want to play?" class="search_bar">
+                    </div>
+                    <div class="sleft">
+                        <img src="./assets/icons/browse.svg" alt="" class="browse focus">
+                    </div>
+                </div>
+            </div>
+            <div class="nright">
+                <div class="center r1">
+                    <span class="nhead"><a href="#" class="focus">Premium</a></span>
+                    <span class="nhead"><a href="#" class="focus">Support</a></span>
+                    <span class="nhead"><a href="#" class="focus">Download</a></span>
+                </div>
+                <div class="r2 center">
+                    <div class="md">
+                        <span class="center margin_left"><img src="./assets/icons/install.svg" alt="" class="icon">
+                            <a href="#" style="margin-left: 8px;" class="focus">Install app</a></span>
+                    </div>
+                    <div class="md-2">
+                        <button class="btn margin-left" style="filter:invert(1);color: #434343;">Signup</button>
+                        <button class="btn">Login</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="body">
+            <div class="bleft div">
+                <div class="bold lhead div">Your Library<div class="inline"
+                        style="font-weight: lighter;font-size: 20px;">+<img src="./assets/icons/close.svg" alt=""
+                            id="close"></div>
+                </div>
+                <div class="lbody">
+                    <!-- here comes the playlists -->
+                    <ul class="playlist">
+
+                    </ul>
+                </div>
+                <div class="lbottom">
+                    <div class="links">
+                        <div class="elink div">
+                            <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink" id="">
+                                <span data-encore-id="type" class="focus">Legal</span></a>
+                        </div>
+                        <div class="elink div">
+                            <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink" id="">
+                                <span data-encore-id="type" class="focus">Safety &amp; Privacy Center</span></a>
+                        </div>
+                        <div class="elink div">
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink"
+                                id="">
+                                <span data-encore-id="type" class="focus">Privacy Policy</span></a>
+                        </div>
+                        <div class="elink div">
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink"
+                                id="">
+                                <span data-encore-id="type" class="focus">About Ads</span></a>
+                        </div>
+                        <div class="elink div">
+                            <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink" id="">
+                                <span data-encore-id="type" class="focus">Accessibility</span></a>
+                        </div>
+                        <div class="elink div">
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink"
+                                id="">
+                                <span data-encore-id="type" style="color: white;">Cookies</span></a>
+                        </div>
+                    </div>
+                    <div class="aligner">
+                        <div class="lang div">
+                            <img src="./assets/icons/lang.svg" alt="" class="icon">
+                            <select class="lselect">
+                                <option value="">English</option>
+                                <option value="">Spanish</option>
+                                <option value="">German</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bright margin-left div">
+                <h3>
+                    <div id="last"><img src="./assets/icons/menu.svg" alt="" id="menu">Trending Songs</div>
+                </h3>
+                <div class="card_holder ch1">
+                    <!--Here comes the albums-->
+                </div>
+                <h3>Most Popular albums and singles</h3>
+                <div class="card_holder ch2">
+                    <!--Here comes the albums-->
+                </div>
+            </div>
+        </div>
+        <div class="player">
+            <div class="upper_player">
+                <div class="curr_song">
+                    <span id="name">Nothing is playing</span>
+                    <span id="artist">Artist</span>
+                </div>
+                <div class="buttons center">
+                    <img src="./assets/icons/backward.svg" alt="" class="control">
+                    <img src="./assets/icons/play.svg" alt="" class="control">
+                    <img src="./assets/icons/forward.svg" alt="" class="control">
+                </div>
+                <div class="meta_data">
+                    <div class="volume center">
+                        <img src="./assets/icons/volume.svg" alt="" class="control" id="volume">
+                        <input type="range" id="sound">
+                    </div>
+                    <div class="timestamp"><span id="timer">00:00</span><span id="md">||</span><span
+                            id="duration">00:00</span></div>
+                </div>
+            </div>
+            <div class="playbar">
+                <div id="dot"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

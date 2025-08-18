@@ -1,0 +1,40 @@
+.margin_left {
+  margin-left: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.div {
+  margin-top: 6px;
+  margin-bottom: 5px;
+  background-color: #121212;
+  border-radius: 5px;
+  color: white;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+}
+
+.align {
+  display: flex;
+  justify-content: center;
+}
+
+.focus:hover {
+  color: white !important;
+  cursor: pointer;
+}
+
+.nleft,
+.nright {
+  display: flex;
+}
