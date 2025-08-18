@@ -37,7 +37,7 @@ spotify-2.0/
 ## 📸 Screenshots
 <h3>Mobile View</h3>
 <p align="center">
-  <img src="assets/screenshots/screenshot2.png" alt="" width="25%"/>
+  <img src="assets/screenshots/screenshot2.png" alt="" width="25%"/>&nbsp;&nbsp;
   <img src="assets/screenshots/screenshot3.png" alt="" width="25%"/>
 </p>
 
