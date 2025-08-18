@@ -1,0 +1,21 @@
+Add song albums here as folders such as
+/album1
+/album2
+.
+.
+.
+/albumN
+
+Each Album will Have an
+1.) info.json
+2.) profile.jpg
+
+then add all the songs in the album
+
+/info.json format:
+{
+    "title":"Most liked songs",
+    "artist":"Yo Yo Honey Singh"
+}
+
+
