@@ -32,13 +32,13 @@ spotify-2.0/<br>
 ---
 
 ## 📸 Screenshots
-![HomePage](assets/screenshots/screenshot1.png)
+![HomePage](https://raw.githubusercontent.com/Daksh-Official/spotify-2.0/main/assets/screenshots/screenshot1.png)
 <br><br>
 ## 📸 Screenshots
 <h3>Mobile View</h3>
 <p align="center">
-  <img src="assets/screenshots/screenshot2.png" alt="" width="25%"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="assets/screenshots/screenshot3.png" alt="" width="25%"/>
+  <img src="https://raw.githubusercontent.com/Daksh-Official/spotify-2.0/refs/heads/main/assets/screenshots/screenshot2.png" alt="" width="25%"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/Daksh-Official/spotify-2.0/blob/main/assets/screenshots/screenshot3.png?raw=true" alt="" width="25%"/>
 </p>
 
 ---
